@@ -5,6 +5,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
   ##Testing the sync process
+  ## work on this function
 
 }
 
