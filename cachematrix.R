@@ -10,10 +10,13 @@ makeCacheMatrix <- function(x = matrix()) {
   cmtx <- NULL
   print(cmtx)
 
-  ##set the special matrix
+  ##set the special matrix 
+  ## in environment differnt from current environment
   set <- function(y)
   {
+    
     x<<- y
+    ## Set the inverse value to null
     cmtx <<- NULL
     
   }
